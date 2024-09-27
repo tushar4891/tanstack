@@ -1,0 +1,27 @@
+.search-box {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  /* background-color: blue; */
+}
+
+.search-box input {
+  width: 100%;
+  padding-right: 30px; /* Add padding so text doesn't overlap with the icon */
+  padding-left: 10px;
+  box-sizing: border-box;
+  height: 35px; /* Adjust height if needed */
+  font-size: 14px;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px; /* Adjust position to place the icon inside the input */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: rgb(140, 136, 136);
+  width: 30px;
+  height: 30px;
+}
